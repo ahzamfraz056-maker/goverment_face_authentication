@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Build output (will be built inside Docker)
+dist
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Documentation (optional - can include if needed)
+*.md
+!README.md
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test files
+*.spec.ts
+e2e
+
+# Temporary files
+*.tmp
+*.log
+.cache
+
+# Docker files (don't need in image)
+Dockerfile
+.dockerignore
+docker-compose.yml
+
